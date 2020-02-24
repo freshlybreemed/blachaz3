@@ -65,7 +65,7 @@ export default class MyDocument extends Document {
           <meta name="apple-mobile-web-app-title" content="Clouty" />
           <meta name="application-name" content="Clouty" /> */}
         </Head>
-        <body className="sans-serif near-black f5 f4-ns">
+        <body className="sans-serif black-80 f5 f4-ns">
           <Main />
 
           <NextScript />
