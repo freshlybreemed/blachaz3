@@ -14,7 +14,7 @@ const Home = () => (
     <article class="helvetica pb5">
       <header class="vh-100 bg-light-pink dt w-100">
         <div 
-          style={{background:'url(/static/img/IMG_0076.jpg) no-repeat center;'}} 
+          style={{background:'url(/static/img/_DSC4787-4.jpg) no-repeat center;'}} 
           class="dtc v-mid cover ph3 ph4-m ph5-l">
           <h1 class="f2 f-subheadline-l f-subheadline-ns  measure white lh-title fw9">Black Haze</h1>
           <h2 class="f4 f2-ns  measure white lh-title fw7">Consolidating Philanthropy & Social Justice With Fashion, Art,
