@@ -29,8 +29,8 @@ const Home = () => (
             </h4>
             {/* <h5 className="f6 ttu tracked black-80">SHOP HERE</h5> */}
             
-            <div className="mw9 db center pa4 pt2-ns">
-              <img className=" center db  measure"
+            <div className="mw9 db center pa2 pt2-ns">
+              <img className=" center db  w-100"
               src="/static/img/48911613411_525c430a6e_o.jpg"
             />
             </div>
@@ -39,7 +39,9 @@ const Home = () => (
                 Learn More
               </a>
             </div>
-            <iframe width="560" height="315"src="https://www.youtube.com/embed/DKmhhjw-xhw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div className="mw9 db pr6 pa4 pt2-ns">
+              <iframe width="560" height="315"src="https://www.youtube.com/embed/DKmhhjw-xhw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
         <div className='measure-wide mt3 mb3'>
             <section class="cf w-100 pa2-ns">
