@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "scope": "freshlybreemed",
   "builds": [
     { "src": "package.json", "use": "@now/next" },
     {
