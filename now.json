@@ -1,4 +1,21 @@
 {
   "version": 2,
-  "builds": [{ "src": "package.json", "use": "@now/next" }]
+  "scope": "freshlybreemed",
+  "builds": [
+    { "src": "package.json", "use": "@now/next" },
+    {
+      "src": "server/handlers/post.js",
+      "use": "@now/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/contact",
+      "methods": ["POST"],
+      "dest": "server/handlers/post.js"
+    }
+  ],
+  "env": {
+    "NODEMAILER": "@nodemailer"
+  }
 }
