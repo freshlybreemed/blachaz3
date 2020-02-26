@@ -32,7 +32,7 @@ const Home = () => (
           <div className='mw9 db center pa2 pt2-ns'>
             <img
               className=' center db  w-100'
-              src='/static/img/48911613411_525c430a6e_o.jpg'
+              src='/static/img/48911613411_525c430a6e_o-2.jpg'
             />
           </div>
           <div className='mw9 db center pa2 pt2-ns'>
@@ -40,6 +40,12 @@ const Home = () => (
           </div>
           <div className='mw9 db center pa2 pt2-ns'>
             <img className=' center db  w-100' src='/static/img/sofist1.jpg' />
+          </div>
+          <div className='mw9 db center pa2 pt2-ns'>
+            <img
+              className=' center db  w-100'
+              src='/static/img/48911679631_b936776704_o-2.jpg'
+            />
           </div>
           <div className='mw9 db center pa2 pt2-ns'>
             <img
@@ -71,7 +77,7 @@ const Home = () => (
           <iframe
             width='560'
             height='315'
-            src='https://www.youtube.com/embed/Yi79yy3-OtM'
+            src='https://www.youtube.com/embed/DKmhhjw-xhw'
             frameborder='0'
             allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
             allowfullscreen></iframe>
