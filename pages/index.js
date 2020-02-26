@@ -90,26 +90,26 @@ const Home = () => (
                 <img class='db w-100 ' src='/static/img/IMG_6881.JPG' alt='' />
               </div>
               <div class='dtc-l v-mid ph3 f4-m f4-l measure-l'>
-                <p class='measure fw6 pv4-l center'>
+                <p class='measure fw6 center'>
                   Hazel, more commonly known as “Blachaz3” (pronounced Black
                   Haze) is a Ghanaian-American creative Entrepreneur based in
                   the United States. Blachaz3 graduated from Fordham University
-                  with her master’s in international social work with a focus in
-                  social justice and leadership.{' '}
+                  with her Master’s in International Social Work with a focus on
+                  Social Justice and Leadership.{' '}
                 </p>{' '}
-                <p class='measure fw6 pv4-l center'>
+                <p class='measure fw6 center'>
                   {' '}
                   While in school, she focused on developing her skills as a
-                  creative, public speaker, and business women so that she could
-                  merge them with her overall career as a social worker. As as
+                  creative, public speaker, and businesswomen so that she could
+                  merge them with her overall career as a social worker. As a
                   result of this process, Blachaz3 created her own social work
                   based organization called{' '}
-                  <a href='#' className={`${styles.link}`}>
+                  <a href='/fists-up-afros-out' className={`${styles.link}`}>
                     FISTS UP AFROS OUT
                   </a>
                   .
                 </p>{' '}
-                <p class='measure fw6 pv4-l center'>
+                <p class='measure fw6 center'>
                   {' '}
                   Her aim is to unify our people globally through, community
                   service, education, programs, and creative arts.
