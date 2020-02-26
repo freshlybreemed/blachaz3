@@ -23,14 +23,12 @@ const ContactForm: React.FC<ContactFormProps> = () => {
   const handleSubmit = async (event: React.FormEvent<HTMLElement>) => {
     // if (!loading) {
     //   setLoading(true);
-    const date = new Date();
     const userSubmission = {
       email,
       name,
       phoneNumber,
       services,
       moreInfo,
-      date,
     };
 
     event.preventDefault();
