@@ -25,14 +25,26 @@ const Home = () => (
           <h4 className=' f4-m f4-l mt0 mb4 measure fw6 pv4-l center'>
             When you mix fashion and philanthropy, what do you get? A formula
             that was created by mistake, but gaining it’s way to a household
-            brand. Aiming to promote UNITY through fashion, art and community
-            Service.
+            brand. Hazel aims to promote UNITY through fashion, art and
+            community service.
           </h4>
 
           <div className='mw9 db center pa2 pt2-ns'>
             <img
               className=' center db  w-100'
               src='/static/img/48911613411_525c430a6e_o.jpg'
+            />
+          </div>
+          <div className='mw9 db center pa2 pt2-ns'>
+            <img className=' center db  w-100' src='/static/img/DSC_0057.jpg' />
+          </div>
+          <div className='mw9 db center pa2 pt2-ns'>
+            <img className=' center db  w-100' src='/static/img/sofist1.jpg' />
+          </div>
+          <div className='mw9 db center pa2 pt2-ns'>
+            <img
+              className=' center db  w-100'
+              src='/static/img/sofist5 (2).jpg'
             />
           </div>
           <div className='mw9 db pr6 pa4 pt2-ns'>
