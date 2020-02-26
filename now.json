@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scope": "freshlybreemed",
+  "scope": "black-haze",
   "builds": [
     { "src": "package.json", "use": "@now/next" },
     {
@@ -16,6 +16,11 @@
     }
   ],
   "env": {
-    "NODEMAILER": "@nodemailer"
+    "NODEMAILER": "@NODEMAILER"
+  },
+  "build": {
+    "env": {
+      "NODEMAILER": "@NODEMAILER"
+    }
   }
 }
