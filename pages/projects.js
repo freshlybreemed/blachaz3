@@ -9,54 +9,122 @@ const data = {
 };
 
 const Home = () => (
-  <div>    
+  <div>
     <Wrapper data={data}>
-    <article class="helvetica pt6">
+      <article class='helvetica pt6'>
         <div className='measure-wide mt3 mb3'>
-            <section class="cf w-100 pa2-ns">
-                <span className={`${styles.section}`}>
-                Fist Up Afros Out          
-                </span>
-            </section>
+          <section class='cf w-100 pa2-ns'>
+            <span className={`${styles.section}`}>Videos</span>
+          </section>
         </div>
-        <div className="mw9 db center pa4 pt2-ns ph7-l">
-            <img className="w-80 center db f5 measure" src="/static/img/output-onlinepngtools (1).png" />
-            <h4 className=" f4-m f4-l mt0 mb4 measure fw6 pv4-l center">
-              When you mix fashion and philanthropy, what do you get? 
-              A formula that was created by mistake, but gaining it’s 
-              way to a household brand. Aiming to promote UNITY through 
-              fashion, art and community Service.
-            </h4>
-            {/* <h5 className="f6 ttu tracked black-80">SHOP HERE</h5> */}
-            
-            <div className="mw9 db center pa2 pt2-ns">
-              <img className=" center db  w-100"
-              src="/static/img/48911613411_525c430a6e_o.jpg"
-            />
-            </div>
-            <div className="mw9 db pr6 pa4 pt2-ns">
-              <a className=" center db  measure f5 fw7 dib no-underline black bg-animate hover-bg-black hover-white inline-flex pa3 ba bw1 border-box">
-                Learn More
-              </a>
-            </div>
-            <div className="mw9 db pr6 pa4 pt2-ns">
-              <iframe width="560" height="315"src="https://www.youtube.com/embed/DKmhhjw-xhw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+        <div class='ph4 ph5-l'>
+          <div class='aspect-ratio aspect-ratio--16x9 mt5 '>
+            <iframe
+              src='https://www.youtube.com/embed/JO-ADJ8kRcQ'
+              class='aspect-ratio--object'
+              frameborder='0'
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowfullscreen></iframe>
+          </div>
+          <h3 class='f5 f4-ns mb0 black-90'>
+            #BarGAININGwithBlachaz3: Dont Box Me In EP.2
+          </h3>
+          <h3 class='f6 f5 fw4 mt2 black-60'>Original Webseries</h3>
+          <div class='aspect-ratio aspect-ratio--16x9 mt5 '>
+            <iframe
+              src='https://www.youtube.com/embed/shaqxC8vKWA'
+              class='aspect-ratio--object'
+              frameborder='0'
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowfullscreen></iframe>
+          </div>
+          <h3 class='f5 f4-ns mb0 black-90'>
+            Screening of short film "33" - DC's Game
+          </h3>
+          <h3 class='f6 f5 fw4 mt2 black-60'>Blachaz3 Hosts</h3>
+          <div class='aspect-ratio aspect-ratio--16x9 mt5 '>
+            <iframe
+              src='https://www.youtube.com/embed/Yi79yy3-OtM'
+              class='aspect-ratio--object'
+              frameborder='0'
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowfullscreen></iframe>
+          </div>
+          <h3 class='f5 f4-ns mb0 black-90'>
+            How To Culturally Tie A Baby On Your Back
+          </h3>
+          <h3 class='f6 f5 fw4 mt2 black-60'>Blachaz3 in Ghana</h3>
+          <div class='aspect-ratio aspect-ratio--16x9 mt5 '>
+            <iframe
+              src='https://www.youtube.com/embed/oR07Xclvpi0'
+              class='aspect-ratio--object'
+              frameborder='0'
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowfullscreen></iframe>
+          </div>
+          <h3 class='f5 f4-ns mb0 black-90'>
+            #BarGAININGwithBlachaz3: Dont Box Me In EP.1
+          </h3>
+          <h3 class='f6 f5 fw4 mt2 black-60'>Original Webseries</h3>
+          <div class='aspect-ratio aspect-ratio--16x9 mt5 '>
+            <iframe
+              src='https://www.youtube.com/embed/iTsvWxraxDk'
+              class='aspect-ratio--object'
+              frameborder='0'
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowfullscreen></iframe>
+          </div>
+          <h3 class='f5 f4-ns mb0 black-90'>
+            #BarGAININGwithBlachaz3: Theme Song
+          </h3>
+          <h3 class='f6 f5 fw4 mt2 black-60'>Original Webseries</h3>
+          <div class='aspect-ratio aspect-ratio--16x9 mt5 '>
+            <iframe
+              src='https://www.youtube.com/embed/eYJ-g-RITK8'
+              class='aspect-ratio--object'
+              frameborder='0'
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowfullscreen></iframe>
+          </div>
+          <h3 class='f5 f4-ns mb0 black-90'>
+            #BarGAININGwithBlachaz3: Introduction
+          </h3>
+          <h3 class='f6 f5 fw4 mt2 black-60'>Original Webseries</h3>
+          <div class='aspect-ratio aspect-ratio--16x9 mt5 '>
+            <iframe
+              src='https://www.youtube.com/embed/336DuvPumgo'
+              class='aspect-ratio--object'
+              frameborder='0'
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowfullscreen></iframe>
+          </div>
+          <h3 class='f5 f4-ns mb0 black-90'>
+            #BarGAININGwithBlachaz3: Episode 1
+          </h3>
+          <h3 class='f6 f5 fw4 mt2 black-60'>Original Webseries</h3>
+          <div class='aspect-ratio aspect-ratio--16x9 mt5 '>
+            <iframe
+              src='https://www.youtube.com/embed/RSJ7OlnNtM0'
+              class='aspect-ratio--object'
+              frameborder='0'
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowfullscreen></iframe>
+          </div>
+          <h3 class='f5 f4-ns mb0 black-90'>
+            #BarGAININGwithBlachaz3: Introduction
+          </h3>
+          <h3 class='f6 f5 fw4 mt2 mb5 black-60'>Original Webseries</h3>
         </div>
-        <div className='measure-wide mt3 mb3'>
-            <section class="cf w-100 pa2-ns">
-                <span className={`${styles.section}`}>
-                Videos         
-                </span>
-            </section>
-        </div>
-        <div className="mw9 w-90 bt center pa4 pt2-ns mh2">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Yi79yy3-OtM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-
-    </article>
-
+      </article>
     </Wrapper>
   </div>
-)
-export  default Home
+);
+export default Home;
