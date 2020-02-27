@@ -52,7 +52,7 @@ const Home = () => (
               <img class='db w-100' src='/static/img/_DSC0652-2.jpg' />
             </a>
             <a href='' class='pv2 grow db no-underline black'>
-              <img class='db w-100' src='/static/img/_DSC4787-2-2.jpg' />
+              <img class='db w-100' src='/static/img/DSC00120-4.jpg' />
             </a>
             <a href='' class='pv2 grow db no-underline black'>
               <img class='db w-100' src='/static/img/IMG_6881-2.jpg' />
