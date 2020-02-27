@@ -48,12 +48,6 @@ const Home = () => (
             />
           </div>
           <div className='mw9 db center pa2 pt2-ns'>
-            <img
-              className=' center db  w-100'
-              src='/static/img/48911679631_b936776704_o-2.jpg'
-            />
-          </div>
-          <div className='mw9 db center pa2 pt2-ns'>
             <img className=' center db  w-100' src='/static/img/DSC_0057.jpg' />
           </div>
           <div className='mw9 db center pa2 pt2-ns'>
@@ -85,8 +79,21 @@ const Home = () => (
           </section>
         </div>
 
-        <div class='ph3'>
-          <div class='aspect-ratio aspect-ratio--16x9 mv5 '>
+        <div class='ph4 ph5-l'>
+          <div class='aspect-ratio aspect-ratio--16x9 mt5 '>
+            <iframe
+              src='https://www.youtube.com/embed/uCP-8GQYbRg'
+              class='aspect-ratio--object'
+              frameborder='0'
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowfullscreen></iframe>
+          </div>
+          <h3 class='f5 f4-ns mb0 black-90'>
+            Fists Up Afros Out: SoFISTication
+          </h3>
+          <h3 class='f6 f5 fw4 mt2 black-60'>Original Webseries</h3>
+          <div class='aspect-ratio aspect-ratio--16x9 mt5 '>
             <iframe
               src='https://www.youtube.com/embed/DKmhhjw-xhw'
               class='aspect-ratio--object'
@@ -95,6 +102,13 @@ const Home = () => (
               mozallowfullscreen
               allowfullscreen></iframe>
           </div>
+          <h3 class='f5 f4-ns mb0 black-90'>
+            <h3 class='f5 f4-ns mb0 black-90'>
+              Fists Up Afros Out: Mini Documentary
+            </h3>
+            <h3 class='f6 f5 fw4 mt2 black-60'>Original Webseries</h3>
+          </h3>
+          <h3 class='f6 f5 fw4 mt2 black-60'>Original Webseries</h3>
         </div>
       </article>
     </Wrapper>
