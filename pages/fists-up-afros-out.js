@@ -21,7 +21,7 @@ const Home = () => (
         <div className='mw9 db center pa4 pt2-ns ph7-l'>
           <img
             className='w-80 center db f5 measure'
-            src='/static/img/fuao.png'
+            src='/static/img/FUAO.png'
           />
           <h4 className=' f4-m f4-l mt0 mb4 measure fw6 pv4-l center'>
             When you mix fashion and philanthropy, what do you get? A formula
@@ -78,29 +78,23 @@ const Home = () => (
               </a>
             </Link>
           </div>
-          <div className='mw9 db pr6 pa4 pt2-ns'>
-            <iframe
-              width='560'
-              height='315'
-              src='https://www.youtube.com/embed/DKmhhjw-xhw'
-              frameborder='0'
-              allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
-              allowfullscreen></iframe>
-          </div>
         </div>
         <div className='measure-wide mt3 mb3'>
           <section class='cf w-100 pa2-ns'>
             <span className={`${styles.section}`}>Videos</span>
           </section>
         </div>
-        <div className='mw9 w-90 bt center pa4 pt2-ns mh2'>
-          <iframe
-            width='560'
-            height='315'
-            src='https://www.youtube.com/embed/DKmhhjw-xhw'
-            frameborder='0'
-            allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
-            allowfullscreen></iframe>
+
+        <div class='ph3'>
+          <div class='aspect-ratio aspect-ratio--16x9 mv5 '>
+            <iframe
+              src='https://www.youtube.com/embed/DKmhhjw-xhw'
+              class='aspect-ratio--object'
+              frameborder='0'
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowfullscreen></iframe>
+          </div>
         </div>
       </article>
     </Wrapper>
