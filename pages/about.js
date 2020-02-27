@@ -91,20 +91,6 @@ const Home = () => (
             </a>
           </div>
         </main>
-        <div className='measure-wide mt3 mb3'>
-          <section class='cf w-100 pa2-ns'>
-            <span className={`${styles.section}`}>Videos</span>
-          </section>
-        </div>
-        <div className='mw9 w-90 bt center pa4 pt2-ns mh2'>
-          <iframe
-            width='560'
-            height='315'
-            src='https://www.youtube.com/embed/Yi79yy3-OtM'
-            frameborder='0'
-            allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
-            allowfullscreen></iframe>
-        </div>
       </article>
     </Wrapper>
   </div>
