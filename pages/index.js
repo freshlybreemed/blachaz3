@@ -19,7 +19,7 @@ const Home = () => (
             }}
             class='dtc v-mid cover ph3 ph4-m ph5-l'>
             <h1 class='f2 f-subheadline-l f-subheadline-ns  measure white lh-title fw9'>
-              Black Haze
+              BlacHaz3
             </h1>
             <h2 class='f4 f2-ns  measure white lh-title fw7'>
               Consolidating Philanthropy & Social Justice With Fashion, Art,
@@ -176,13 +176,21 @@ const Home = () => (
             design
           </a>
           <a
+            class='f3 link b hover-light-purple no-underline black dib ph2 pv1'
+            href='http://unsplash.com/mrmrs'>
+            speaking engagements
+          </a>
+          <a
             class='f3 link b hover-red no-underline black-80  dib ph2 pv1'
             href='#'>
             lookbook curation
           </a>
-          {/* <a class="f3 link b hover-pink no-underline black dib ph2 pv1" href="http://instagram.com/mrmrs_">instagram</a>
-        <a class="f3 link b hover-light-purple no-underline black dib ph2 pv1" href="http://unsplash.com/mrmrs">unsplash</a>
-        <a class="f3 link b hover-purple no-underline black dib ph2 pv1" href="http://twitter.com/mrmrs_">twitter</a> */}
+          <a
+            class='f3 link b hover-pink no-underline black dib ph2 pv1'
+            href='http://instagram.com/mrmrs_'>
+            hosting
+          </a>
+          {/* <a class="f3 link b hover-purple no-underline black dib ph2 pv1" href="http://twitter.com/mrmrs_">twitter</a> */}
         </section>
         <section class='cf w-100 pa2-ns'>
           <div className='measure-wide mv2'>
@@ -190,38 +198,39 @@ const Home = () => (
           </div>
         </section>
         <section class='pa3 pa4-m pa5-l'>
-          <a
+          <div
             class='link  black-80 hover-silver dib mv1  mh3 tc'
-            href='https://facebook.com'
             title='Facebook'>
             <img
               class='dib h2'
               style={{ filter: 'brightness(0)' }}
               src='/static/img/coco.png'
             />
-          </a>
-          <a
+          </div>
+          <div
             class='link black-80 hover-silver dib mv1  mh3 tc'
-            href='https://facebook.com'
             title='Facebook'>
             <img
               class='dib h2'
               src='/static/img/buzzfeed-logo-black-transparent.png'
             />
-          </a>
-          <a
+          </div>
+          <div
             class='link black-80 hover-silver dib mv1  mh3 tc'
-            href='https://facebook.com'
             title='Facebook'>
             <img class='dib h2' src='/static/img/Nike-Logo.png' />
-          </a>
-          <a
+          </div>
+          <div
             class='link black-80 hover-silver dib mv1  mh3 tc'
-            href='https://facebook.com'
             title='Facebook'>
             <img class='dib h2' src='/static/img/afropunk-logo.png' />
-          </a>
-          <a
+          </div>
+          <div
+            class='link black-80 hover-silver dib mv1  mh3 tc'
+            title='Facebook'>
+            <img class='dib h2' src='/static/img/Cosmopolitan_logo_black.png' />
+          </div>
+          <div
             class='link black-80 hover-silver dib mv1  mh3 tc'
             href='https://facebook.com'
             title='Facebook'>
@@ -229,62 +238,56 @@ const Home = () => (
               class='dib h2'
               src='/static/img/800px-COMPLEX_Magazine_Logo.svg.png'
             />
-          </a>
-          <a
+          </div>
+          <div
             class='link black-80 hover-silver dib mv1  mh3 tc'
-            href='https://facebook.com'
             title='Facebook'>
             <img
               class='dib h2'
               src='/static/img/black-opal-beauty-coupons.png'
             />
-          </a>
-          <a
+          </div>
+          <div
             class='link black-80 hover-silver dib mv1  mh3 tc'
-            href='https://facebook.com'
             title='Facebook'>
             <img
               class='dib h2'
               style={{ filter: 'brightness(0)' }}
               src='/static/img/allure.png'
             />
-          </a>
-          <a
+          </div>
+          <div
             class='link black-80 hover-silver dib mv1  mh3 tc'
-            href='https://facebook.com'
             title='Facebook'>
             <img
               class='dib h2'
               style={{ filter: 'brightness(0)' }}
               src='/static/img/unnamed.png'
             />
-          </a>
-          <a
+          </div>
+          <div
             class='link black-80 hover-silver dib mv1  mh3 tc'
-            href='https://facebook.com'
             title='Facebook'>
             <img
               class='dib h2'
               style={{ filter: 'brightness(0)' }}
               src='/static/img/logo-min.png'
             />
-          </a>
-          <a
+          </div>
+          <div
             class='link black-80 hover-silver dib mv1  mh3 tc'
-            href='https://facebook.com'
             title='Facebook'>
             <img class='dib h2' src='/static/img/s229680gg.png' />
-          </a>
-          <a
+          </div>
+          <div
             class='link black-80 hover-silver dib mv1  mh3 tc'
-            href='https://facebook.com'
             title='Facebook'>
             <img
               class='dib h2'
               style={{ filter: 'brightness(0)' }}
               src='/static/img/s229680g.png'
             />
-          </a>
+          </div>
         </section>
       </article>
     </Wrapper>
