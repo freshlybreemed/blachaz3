@@ -10,7 +10,9 @@ const Navigation = () => {
     <header class='bg-white-90 fixed w-100 ph3 pv3 pv4-ns ph4-m ph5-l'>
       <nav class='f5 fw6  tracked'>
         <Link href='/'>
-          <a class='link bg-black-90 pa2  white fw7 dim  dib mr3' title='Home'>
+          <a
+            class='link bg-black-90 pa2  white fw7 dim  dib mb1 mr3'
+            title='Home'>
             Home
           </a>
         </Link>
@@ -23,7 +25,7 @@ const Navigation = () => {
         </Link>
         <Link href='/fists-up-afros-out'>
           <a
-            class='link bg-black-90 pa2  white fw7 dim  dib mr3'
+            class='link bg-black-90 pa2  white fw7 dim mb2 dib mr3'
             title='Fist Up Afros Out'>
             Fist Up Afros Out
           </a>
