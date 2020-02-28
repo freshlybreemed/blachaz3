@@ -30,15 +30,17 @@ const Home = () => (
             community service.
           </h4>
           <h4 className=' f4-m f4-l mt0 mb2 measure fw6 pv4-l center'>
-            1. The Afro represents freedom, liberation, and an authenic form of
-            growth
+            1. The <span class={`${styles.link}`}>Afro</span> represents
+            freedom, liberation, and an authenic form of growth
           </h4>
           <h4 className=' f4-m f4-l mt0 mb2 measure fw6 pv4-l center'>
-            2. The Clenched Fist also known as the raised fist has been used for
-            centuries by various groups and cultures to symbolize unity.
+            2. The <span class={`${styles.link}`}>Clenched Fist</span> also
+            known as the raised fist has been used for centuries by various
+            groups and cultures to symbolize unity.
           </h4>
-          <h4 className=' f4-m f4-l mt0 mb2 measure fw6 pv4-l center'>
-            3. The Peace Sign besides loves, this is what the word needs
+          <h4 className=' f4-m f4-l mt0 mb4 measure fw6 pv4-l center'>
+            3. The <span class={`${styles.link}`}>Peace Sign </span> besides
+            loves, this is what the word needs
           </h4>
 
           <div className='mw9 db center pa2 pt2-ns'>
@@ -108,7 +110,6 @@ const Home = () => (
             </h3>
             <h3 class='f6 f5 fw4 mt2 black-60'>Original Webseries</h3>
           </h3>
-          <h3 class='f6 f5 fw4 mt2 black-60'>Original Webseries</h3>
         </div>
       </article>
     </Wrapper>

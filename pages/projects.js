@@ -14,7 +14,7 @@ const Home = () => (
       <article class='helvetica pt6'>
         <div className='measure-wide mt3 mb3'>
           <section class='cf w-100 pa2-ns'>
-            <span className={`${styles.section}`}>Videos</span>
+            <span className={`${styles.section}`}>Projects</span>
           </section>
         </div>
         <div class='ph4 ph5-l'>

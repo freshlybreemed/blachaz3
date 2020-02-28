@@ -1,6 +1,6 @@
 const styles = {
   wrapper: 'mw8 center',
-  link: 'near-black fw7 link no-underline bb bw1 b--hot-pink dim',
+  link: 'fw7 black-70 link no-underline bb bw1 b--hot-pink dim',
   navigationLink: 'near-black fw7 link no-underline',
   section: 'f3 fw7 ph3 f2-ns mv0 bg-black-90  white mb0',
   unorderedList: 'list unordered-list lh-copy',
