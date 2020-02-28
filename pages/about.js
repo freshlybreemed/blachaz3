@@ -78,16 +78,7 @@ const Home = () => (
               <img class='db w-100' src='/static/img/IMG_4923-2.jpg' />
             </a>
             <a href='' class='pv2 grow db no-underline black'>
-              <img class='db w-100' src='/static/img/_DSC4880-2-2.jpg' />
-            </a>
-            <a href='' class='pv2 grow db no-underline black'>
-              <img class='db w-100' src='/static/img/DSC00163-2.jpg' />
-            </a>
-            <a href='' class='pv2 grow db no-underline black'>
-              <img class='db w-100' src='/static/img/_DSC4880-2-2.jpg' />
-            </a>
-            <a href='' class='pv2 grow db no-underline black'>
-              <img class='db w-100' src='/static/img/_DSC4880-2-2.jpg' />
+              <img class='db w-100' src='/static/img/Hazel-5.jpg' />
             </a>
           </div>
         </main>
