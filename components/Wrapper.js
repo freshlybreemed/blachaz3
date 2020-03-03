@@ -20,9 +20,9 @@ export default class Wrapper extends Component {
   renderHeader() {
     if (this.props.data.header) {
       return (
-        <header className="pv6 cf">
-          <div className="measure-wide mt5 mb4">
-            <h2 className="f3 f2-ns mv0 near-black mb0">
+        <header className='pv6 cf'>
+          <div className='measure-wide mt5 mb4'>
+            <h2 className='f3 f2-ns mv0 near-black mb0'>
               {this.props.data.header}
             </h2>
           </div>
@@ -35,26 +35,21 @@ export default class Wrapper extends Component {
   render() {
     const { data, className, children: content } = this.props;
 
-    const title = data.title
-      ? `Blachaz3 | ${data.title}`
-      : `Blachaz3`;
+    const title = data.title ? `Blachaz3 | ${data.title}` : `Blachaz3`;
     const cls = className ? `${className}` : '';
     const description = data.description
       ? data.description
-      : 'Fantasy gameplay at the intersection of data, music and finance.';
+      : 'Consolidating Philanthropy & Social Justice With Fashion, Art,Music to change the world in a positive way.';
 
     return (
       <div>
         <Head>
           <title>{title}</title>
-          <meta name="description" content={description} />
-          <meta property="og:title" content={title} />
-          <meta property="og:description" content={description} />
-          <meta
-            name="twitter:title"
-            content={`The 🌎's first music betting platform.`}
-          />
-          <meta name="twitter:description" content={description} />
+          <meta name='description' content={description} />
+          <meta property='og:title' content={title} />
+          <meta property='og:description' content={description} />
+          <meta name='twitter:title' content={`BlacHaz3`} />
+          <meta name='twitter:description' content={description} />
         </Head>
         {/* {this.renderHeader()} */}
         <div>

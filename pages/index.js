@@ -4,7 +4,8 @@ import React from 'react';
 import Wrapper from '../components/Wrapper';
 
 const data = {
-  description: 'Fist Up Afros Out',
+  description:
+    'Consolidating Philanthropy & Social Justice With Fashion, Art, Music to change the world in a positive way.',
   header: `Blachaz3`,
 };
 

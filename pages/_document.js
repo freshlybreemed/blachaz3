@@ -14,58 +14,54 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <html lang="en">
+      <html lang='en'>
         <Head>
-          <link rel="stylesheet" href="/static/styles.min.css" />
-
-           <link
-            rel="icon"
-            type="image/x-icon"
-            href="https://blachaz3.now.sh/static/img/BLACHAZ3.png"
+          <link rel='stylesheet' href='/static/styles.min.css' />
+          <link
+            rel='icon'
+            type='image/x-icon'
+            href='https://blachaz3.com/static/img/BLACHAZ3.png'
           />
-            <meta
-              property="og:image"
-              content="https://blachaz3.now.sh/static/img/_DSC4787-4.jpg"
-            />
-          {/*
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-          <meta charSet="utf-8" />
           <meta
-            name="keywords"
-            content="fantasy music, clouty, fantasy rap, music league"
-          ></meta>
-          <meta name="description" content="Clouty™: Rap, Reimagined" />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="home" href="https://getclouty.com/" />
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content="http://getclouty.com/" />
-          <meta property="og:site_name" content="Clouty" />
-          <meta
-            property="og:description"
-            content="Fantasy gameplay at the intersection of data, music and finance."
+            property='og:image'
+            content='https://blachaz3.com/static/img/DSC_9426-2.jpg'
           />
-          <meta name="twitter:card" content="summary" />
+          <meta name='viewport' content='width=device-width, initial-scale=1' />
+          <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
+          <meta charSet='utf-8' />
+          <meta name='keywords' content='BlacHaz3, fashion, art, dmv'></meta>
+          <meta name='description' content='BlacHaz3™: Rap, Reimagined' />
+          <meta name='viewport' content='width=device-width, initial-scale=1' />
+          <link rel='home' href='https://BlacHaz3.com/' />
+          <meta property='og:type' content='website' />
+          <meta property='og:url' content='http://BlacHaz3.com/' />
+          <meta property='og:site_name' content='BlacHaz3' />
           <meta
-            name="twitter:image"
-            content="https://getclouty.com/static/img/clouty-04.png"
+            property='og:description'
+            content='Consolidating Philanthropy & Social Justice With Fashion, Art,
+              Music to change the world in a positive way.'
           />
-          <meta name="twitter:site" content="@getclouty" />
-          <meta name="twitter:title" content="Clouty" />
+          <meta name='twitter:card' content='summary' />
           <meta
-            name="twitter:description"
-            content="Fantasy gameplay at the intersection of data, music and finance."
+            name='twitter:image'
+            content='https://blachaz3.com/static/img/DSC_9426-2.jpg'
           />
-          <meta name="twitter:creator" content="@getclouty" />
-          <meta property="fb:app_id" content="1334983689990834" />
-          <meta name="apple-mobile-web-app-title" content="Clouty" />
-          <meta name="application-name" content="Clouty" />
-          <meta name="theme-color" content="#ffffff" />
-
-          <meta name="apple-mobile-web-app-title" content="Clouty" />
-          <meta name="application-name" content="Clouty" /> */}
+          <meta name='twitter:site' content='@blachaz3' />
+          <meta name='twitter:title' content='BlacHaz3' />
+          <meta
+            name='twitter:description'
+            content='Consolidating Philanthropy & Social Justice With Fashion, Art,
+              Music to change the world in a positive way.'
+          />
+          <meta name='twitter:creator' content='@BlacHaz3' />
+          <meta property='fb:app_id' content='1334983689990834' />
+          <meta name='apple-mobile-web-app-title' content='BlacHaz3' />
+          <meta name='application-name' content='BlacHaz3' />
+          <meta name='theme-color' content='#ffffff' />
+          <meta name='apple-mobile-web-app-title' content='BlacHaz3' />
+          <meta name='application-name' content='BlacHaz3' />
         </Head>
-        <body className="sans-serif black-80 f5 f4-ns">
+        <body className='sans-serif black-80 f5 f4-ns'>
           <Main />
 
           <NextScript />
