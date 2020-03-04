@@ -16,7 +16,7 @@ const Home = () => (
         <header class='vh-100 bg-dark-pink dt w-100'>
           <div
             style={{
-              background: 'url(/static/img/_DSC4787-4.jpg) no-repeat center;',
+              background: 'url(/static/img/_DSC4787-4-4.jpg) no-repeat center;',
             }}
             class='dtc v-mid cover ph3 ph4-m ph5-l'>
             <h1 class='f2 f-subheadline-l f-subheadline-ns  measure white lh-title fw9'>
@@ -27,7 +27,7 @@ const Home = () => (
               Music to change the world in a positive way.
             </h2>
             <a
-              href='https://www.facebook.com/'
+              href='https://www.facebook.com/Blachaz3'
               class='link dim dib mr3 white-70'
               title='Impossible Labs on Facebook'>
               <svg
@@ -112,7 +112,7 @@ const Home = () => (
                 </p>{' '}
                 <p class='measure fw6 center'>
                   {' '}
-                  Her aim is to unify our people globally through, community
+                  Her aim is to unify our people globally through community
                   service, education, programs, and creative arts.
                 </p>
               </div>
@@ -127,9 +127,10 @@ const Home = () => (
         <section class='pa3 pa4-m pa5-l'>
           <a
             class='f3 link hover-dark-blue b no-underline black-80  dib ph2 pv1'
-            href='#'>
+            href='https://www.instagram.com/stories/highlights/18059857195047388/'>
             creative direction
           </a>
+          {/* href='https://www.instagram.com/stories/highlights/18032728054086548/'> */}
           <a
             class='f3 link b hover-blue no-underline black-80  dib ph2 pv1'
             href='#'>
@@ -161,16 +162,21 @@ const Home = () => (
             social media marketing
           </a>
           <a
+            class='f3 link b hover-hot-pink no-underline black-80  dib ph2 pv1'
+            href='https://www.instagram.com/p/BwWxWliAUwu/'>
+            content creation
+          </a>
+          <a
             class='f3 link b hover-gold no-underline black-80  dib ph2 pv1'
-            href='#'>
+            href='https://www.instagram.com/p/BwoyZKygIHa/'>
+            {' '}
             videography
           </a>
           <a
             class='f3 link b hover-orange no-underline black-80  dib ph2 pv1'
-            href='#'>
+            href='https://www.instagram.com/p/BXtXhxwhnWD/'>
             product placement
           </a>
-
           <a
             class='f3 link b hover-light-red no-underline black-80  dib ph2 pv1'
             href='#'>
@@ -178,7 +184,7 @@ const Home = () => (
           </a>
           <a
             class='f3 link b hover-light-purple no-underline black dib ph2 pv1'
-            href='http://unsplash.com/mrmrs'>
+            href='https://www.instagram.com/stories/highlights/17928027403291474/'>
             speaking engagements
           </a>
           <a
@@ -188,10 +194,9 @@ const Home = () => (
           </a>
           <a
             class='f3 link b hover-pink no-underline black dib ph2 pv1'
-            href='http://instagram.com/mrmrs_'>
+            href='#'>
             hosting
           </a>
-          {/* <a class="f3 link b hover-purple no-underline black dib ph2 pv1" href="http://twitter.com/mrmrs_">twitter</a> */}
         </section>
         <section class='cf w-100 pa2-ns'>
           <div className='measure-wide mv2'>
@@ -233,7 +238,6 @@ const Home = () => (
           </div>
           <div
             class='link black-80 hover-silver dib mv1  mh3 tc'
-            href='https://facebook.com'
             title='Facebook'>
             <img
               class='dib h2'
