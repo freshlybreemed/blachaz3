@@ -4,7 +4,7 @@ import React from 'react';
 import Wrapper from '../components/Wrapper';
 
 const data = {
-  description: 'Fist Up Afros Out',
+  description: 'Fists Up Afros Out',
   header: `Blachaz3`,
 };
 

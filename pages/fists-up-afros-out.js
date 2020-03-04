@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Wrapper from '../components/Wrapper';
 
 const data = {
-  description: 'Fist Up Afros Out™',
+  description: 'Fists Up Afros Out™',
   header: `Blachaz3`,
 };
 
@@ -15,7 +15,7 @@ const Home = () => (
       <article class='helvetica pt6'>
         <div className='measure-wide mt3 mb3'>
           <section class='cf w-100 pa2-ns'>
-            <span className={`${styles.section}`}>Fist Up Afros Out™</span>
+            <span className={`${styles.section}`}>Fists Up Afros Out™</span>
           </section>
         </div>
         <div className='mw9 db center pa4 pt2-ns ph7-l'>
