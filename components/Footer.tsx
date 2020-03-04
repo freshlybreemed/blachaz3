@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
         </div>
         <div className='db dtc-ns black-70 tc tr-ns v-mid'>
           <a
-            href='https://www.facebook.com/'
+            href='https://www.facebook.com/Blachaz3'
             className='link dim dib mr3 black-70'
             title='Impossible Labs on Facebook'>
             <svg

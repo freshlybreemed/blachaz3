@@ -16,11 +16,11 @@ const Navigation = () => {
             Home
           </a>
         </Link>
-        <Link href='/about'>
+        <Link href='/photos'>
           <a
             class='link bg-black-90 pa1  white  fw7 dim  dib mr3'
-            title='About'>
-            About
+            title='Photos'>
+            Photos
           </a>
         </Link>
         <Link href='/fists-up-afros-out'>
