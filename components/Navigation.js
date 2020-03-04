@@ -26,14 +26,14 @@ const Navigation = () => {
         <Link href='/fists-up-afros-out'>
           <a
             class='link bg-black-90 pa2  white fw7 dim mb2 dib mr3'
-            title='Fist Up Afros Out'>
-            Fist Up Afros Out
+            title='Fists Up Afros Out'>
+            Fists Up Afros Out
           </a>
         </Link>
         <Link href='/projects'>
           <a
             class='link bg-black-90 pa1  white fw7 dim  dib mr3'
-            title='Fist Up Afros Out'>
+            title='Projects'>
             Projects
           </a>
         </Link>
