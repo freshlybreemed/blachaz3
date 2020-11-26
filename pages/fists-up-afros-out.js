@@ -39,8 +39,8 @@ const Home = () => (
             groups and cultures to symbolize unity.
           </h4>
           <h4 className=' f4-m f4-l mt0 mb4 measure fw6 pv4-l center'>
-            3. The <span class={`${styles.link}`}>Peace Sign </span> besides
-            loves, this is what the word needs
+            3. The <span class={`${styles.link}`}>Peace Sign</span> represents
+            various sentiments of, well, peace, love, unity, and harmony.
           </h4>
         </div>
         <div className='mw9 db center pa3 pt2-ns'>
@@ -94,7 +94,7 @@ const Home = () => (
               </h4>{' '}
               <h4 className=' f4-m f4-l mt0 mb4 measure fw6 pv4-l center'>
                 How we achieve this goal is through our various community based
-                programs, seminars, events, activties etc.
+                programs, seminars, events, activities etc.
               </h4>
             </div>
           </div>

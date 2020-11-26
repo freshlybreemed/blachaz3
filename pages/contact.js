@@ -25,8 +25,9 @@ const Home = () => (
             </a>
           </div>
           <h4 className=' f4-m f4-l mt0 mb4 measure fw6'>
-            Shoot us an email or free feel to use the form below to tell us
-            about your marketing and event programming needs.
+            How can Blachaz3 help you today? Shoot an email or feel free to use
+            the form below to tell us about your marketing and event programming
+            needs.
           </h4>
           <ContactForm />
         </div>
