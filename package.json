@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "now dev",
+    "start:dev": "next",
+    "build:dev": "next build",
+    "dev": "next dev",
     "start": "now"
   },
   "author": "",
@@ -15,15 +17,16 @@
     "date-fns": "^2.9.0",
     "husky": "^4.2.3",
     "micro": "^9.3.4",
-    "next": "^9.2.1",
+    "next": "^13.4.19",
     "nodemailer": "^6.4.3",
     "prettier": "^1.19.1",
     "prettier-eslint": "^9.0.1",
     "prettier-eslint-cli": "^5.0.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-ga": "^2.7.0",
-    "typescript": "^3.8.2"
+    "typescript": "^5.2.2"
   },
   "devDependencies": {
     "@types/cleave.js": "^1.4.1",
@@ -35,9 +38,6 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  },
-  "engines": {
-    "node": "12.x"
   },
   "lint-staged": {
     "*.{js,jsx}": [

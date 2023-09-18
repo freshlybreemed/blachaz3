@@ -9,40 +9,61 @@ const Navigation = () => {
   return (
     <header class='bg-white-90 fixed w-100 ph3 pv3 pv4-ns ph4-m ph5-l'>
       <nav class='f5 fw6  tracked'>
-        <Link href='/'>
-          <a
-            class='link bg-black-90 pa2  white fw7 dim  dib mb1 mr3'
-            title='Home'>
+        <Link
+          href='/'
+          class='link bg-black-90 pa2  white fw7 dim  dib mb1 mr3'
+          title='Home'>
+          
             Home
-          </a>
+          
         </Link>
-        <Link href='/photos'>
-          <a
-            class='link bg-black-90 pa1  white  fw7 dim  dib mr3'
-            title='Photos'>
-            Photos
-          </a>
-        </Link>
-        <Link href='/fists-up-afros-out'>
-          <a
-            class='link bg-black-90 pa2  white fw7 dim mb2 dib mr3'
-            title='Fists Up Afros Out'>
-            Fists Up Afros Out
-          </a>
-        </Link>
-        <Link href='/projects'>
-          <a
-            class='link bg-black-90 pa1  white fw7 dim  dib mr3'
-            title='Projects'>
+        <Link
+          href='/projects'
+          class='link bg-black-90 pa1  white fw7 dim  dib mr3'
+          title='Projects'>
+          
             Projects
-          </a>
+          
         </Link>
-        <Link href='/contact'>
-          <a
-            class='link  bg-black-90 pa2  white  fw7  dim  mr3'
-            title='Contact'>
-            Contact
-          </a>
+        <Link
+          href='/sustainable-fashion'
+          class='link bg-black-90 pa2  white  fw7 dim  dib mr3'
+          title='Sustainable Fashion'>
+          
+            Sustainable Fashion
+          
+        </Link>
+        <Link
+          href='/photos'
+          class='link bg-black-90 pa1  white  fw7 dim  dib mr3'
+          title='Travel'>
+          
+            Travel
+          
+        </Link>
+        <Link
+          href='/fists-up-afros-out'
+          class='link bg-black-90 pa2  white fw7 dim mb2 dib mr3'
+          title='Featues/Press/Interviews'>
+          
+            Featues/Press/Interviews
+          
+        </Link>
+        <Link
+          href='/shop'
+          class='link  bg-black-90 pa1  white  fw7  dim  mr3'
+          title='Shop'>
+          
+            Shop
+          
+        </Link>
+        <Link
+          href='/contact'
+          class='link  bg-black-90 pa2  white  fw7  dim  mr3'
+          title='General Bookings'>
+          
+            General Bookings
+          
         </Link>
       </nav>
     </header>

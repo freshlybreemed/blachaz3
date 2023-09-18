@@ -24,10 +24,14 @@ const Home = () => (
             src='/static/img/FUAO.png'
           />
           <h4 className=' f4-m f4-l mt0 mb4 measure fw6 pv4-l center'>
-            When you mix fashion and philanthropy, what do you get? A formula
-            that was created by mistake, but gaining it’s way to a household
-            brand. Hazel aims to promote UNITY through fashion, art and
-            community service.
+            When you mix philanthropy and the arts what do you get? A formula
+            that was created when Hazel found synergy in her education in social
+            work, social justice, and philanthropy with her natural passion for
+            the arts. As a result, she created FISTS UP AFROS OUT,™ An
+            organization dedicated to empowering underrepresented communities
+            through programming, seminars, and community based events.
+            Established in 2016. its gaining it’s way to a becoming a household
+            brand.
           </h4>
           <h4 className=' f4-m f4-l mt0 mb2 measure fw6 pv4-l center'>
             1. The <span class={`${styles.link}`}>Afro</span> represents
@@ -59,10 +63,11 @@ const Home = () => (
           />
         </div>
         <div className='mw9 db pr6 pa3 pt2-ns'>
-          <Link href='https://www.etsy.com/shop/Blachaz3?ref=simple-shop-header-name&listing_id=261679659'>
-            <a className=' center db  measure f5 fw7 dib no-underline black bg-animate hover-bg-black hover-white inline-flex pa3 ba bw1 border-box'>
-              Online Shop{' '}
-            </a>
+          <Link
+            href='https://www.etsy.com/shop/Blachaz3?ref=simple-shop-header-name&listing_id=261679659'
+            className=' center db  measure f5 fw7 dib no-underline black bg-animate hover-bg-black hover-white inline-flex pa3 ba bw1 border-box'>
+            Online Shop{' '}
+
           </Link>
         </div>
         <div className='mw9 db center pa3 pt2-ns'>

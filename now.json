@@ -2,7 +2,7 @@
   "version": 2,
   "scope": "black-haze",
   "builds": [
-    { "src": "package.json", "use": "@now/next" },
+    { "src": "package.json", "use": "@vercel/next" },
     {
       "src": "server/handlers/post.js",
       "use": "@now/node"
