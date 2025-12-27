@@ -12,9 +12,9 @@ const data = {
 const Home = () => (
   <div>
     <Wrapper data={data}>
-      <article class='helvetica pt6'>
+      <article className='helvetica pt6'>
         <div className='measure-wide mt3 mb3'>
-          <section class='cf w-100 pa2-ns'>
+          <section className='cf w-100 pa2-ns'>
             <span className={`${styles.section}`}>Fists Up Afros Out™</span>
           </section>
         </div>
@@ -30,16 +30,16 @@ const Home = () => (
             community service.
           </h4>
           <h4 className=' f4-m f4-l mt0 mb2 measure fw6 pv4-l center'>
-            1. The <span class={`${styles.link}`}>Afro</span> represents
+            1. The <span className={`${styles.link}`}>Afro</span> represents
             freedom, liberation, and an authenic form of growth
           </h4>
           <h4 className=' f4-m f4-l mt0 mb2 measure fw6 pv4-l center'>
-            2. The <span class={`${styles.link}`}>Clenched Fist</span> also
+            2. The <span className={`${styles.link}`}>Clenched Fist</span> also
             known as the raised fist has been used for centuries by various
             groups and cultures to symbolize unity.
           </h4>
           <h4 className=' f4-m f4-l mt0 mb4 measure fw6 pv4-l center'>
-            3. The <span class={`${styles.link}`}>Peace Sign</span> represents
+            3. The <span className={`${styles.link}`}>Peace Sign</span> represents
             various sentiments of, well, peace, love, unity, and harmony.
           </h4>
         </div>
@@ -59,22 +59,22 @@ const Home = () => (
           />
         </div>
         <div className='mw9 db pr6 pa3 pt2-ns'>
-          <Link href='https://www.etsy.com/shop/Blachaz3?ref=simple-shop-header-name&listing_id=261679659'>
-            <a className=' center db  measure f5 fw7 dib no-underline black bg-animate hover-bg-black hover-white inline-flex pa3 ba bw1 border-box'>
-              Online Shop{' '}
-            </a>
+          <Link
+            href='https://www.etsy.com/shop/Blachaz3?ref=simple-shop-header-name&listing_id=261679659'
+            className=' center db  measure f5 fw7 dib no-underline black bg-animate hover-bg-black hover-white inline-flex pa3 ba bw1 border-box'>
+            Online Shop{' '}
           </Link>
         </div>
         <div className='mw9 db center pa3 pt2-ns'>
-          <section class='cf w-100 pa2-ns'>
+          <section className='cf w-100 pa2-ns'>
             <span className={`${styles.section}`}>SoFISTication™</span>
           </section>
           <div className='mw9 db center pa2 pt2-ns ph7-l'>
             <div
-              class='link  black-80 hover-silver dib mv1  mh3 tc'
+              className='link  black-80 hover-silver dib mv1  mh3 tc'
               title='Facebook'>
               <img
-                class='dib w-100 ma2 mb4'
+                className='dib w-100 ma2 mb4'
                 style={{ filter: 'brightness(0)' }}
                 src='/static/img/sofist.png'
               />
@@ -108,39 +108,39 @@ const Home = () => (
             />
           </div>
           <div className='measure-wide mt3 mb3'>
-            <section class='cf w-100 pa2-ns'>
+            <section className='cf w-100 pa2-ns'>
               <span className={`${styles.section}`}>Videos</span>
             </section>
           </div>
 
-          <div class='ph4 ph5-l'>
-            <div class='aspect-ratio aspect-ratio--16x9 mt5 '>
+          <div className='ph4 ph5-l'>
+            <div className='aspect-ratio aspect-ratio--16x9 mt5 '>
               <iframe
                 src='https://www.youtube.com/embed/uCP-8GQYbRg'
-                class='aspect-ratio--object'
+                className='aspect-ratio--object'
                 frameborder='0'
                 webkitallowfullscreen
                 mozallowfullscreen
                 allowfullscreen></iframe>
             </div>
-            <h3 class='f5 f4-ns mb0 black-90'>
+            <h3 className='f5 f4-ns mb0 black-90'>
               Fists Up Afros Out: SoFISTication
             </h3>
-            <h3 class='f6 f5 fw4 mt2 black-60'>Original Webseries</h3>
-            <div class='aspect-ratio aspect-ratio--16x9 mt5 '>
+            <h3 className='f6 f5 fw4 mt2 black-60'>Original Webseries</h3>
+            <div className='aspect-ratio aspect-ratio--16x9 mt5 '>
               <iframe
                 src='https://www.youtube.com/embed/DKmhhjw-xhw'
-                class='aspect-ratio--object'
+                className='aspect-ratio--object'
                 frameborder='0'
                 webkitallowfullscreen
                 mozallowfullscreen
                 allowfullscreen></iframe>
             </div>
-            <h3 class='f5 f4-ns mb0 black-90'>
-              <h3 class='f5 f4-ns mb0 black-90'>
+            <h3 className='f5 f4-ns mb0 black-90'>
+              <h3 className='f5 f4-ns mb0 black-90'>
                 Fists Up Afros Out: Mini Documentary
               </h3>
-              <h3 class='f6 f5 fw4 mt2 black-60'>Original Webseries</h3>
+              <h3 className='f6 f5 fw4 mt2 black-60'>Original Webseries</h3>
             </h3>
           </div>
         </div>

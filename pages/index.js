@@ -1,5 +1,6 @@
 import { styles } from '../constants/styles';
 import React from 'react';
+import Link from 'next/link';
 // import SignUpForm from '../components/SignUpForm';
 import Wrapper from '../components/Wrapper';
 
@@ -12,26 +13,26 @@ const data = {
 const Home = () => (
   <div>
     <Wrapper data={data}>
-      <article class='helvetica pb5'>
-        <header class='vh-100 bg-dark-pink dt w-100'>
+      <article className='helvetica pb5'>
+        <header className='vh-100 bg-dark-pink dt w-100'>
           <div
             style={{
               background: 'url(/static/img/_DSC4787-4-4.jpg) no-repeat center;',
             }}
-            class='dtc v-mid cover ph3 ph4-m ph5-l'>
-            <h1 class='f2 f-subheadline-l f-subheadline-ns  measure white lh-title fw9'>
+            className='dtc v-mid cover ph3 ph4-m ph5-l'>
+            <h1 className='f2 f-subheadline-l f-subheadline-ns  measure white lh-title fw9'>
               BlacHaz3
             </h1>
-            <h2 class='f4 f2-ns  measure white lh-title fw7'>
+            <h2 className='f4 f2-ns  measure white lh-title fw7'>
               Consolidating Philanthropy & Social Justice With Fashion, Art,
               Music to change the world in a positive way.
             </h2>
             <a
               href='https://www.facebook.com/Blachaz3'
-              class='link dim dib mr3 white-70'
+              className='link dim dib mr3 white-70'
               title='Impossible Labs on Facebook'>
               <svg
-                class='db w2 h2'
+                className='db w2 h2'
                 data-icon='facebook'
                 viewBox='0 0 32 32'
                 fill='currentColor'>
@@ -41,9 +42,9 @@ const Home = () => (
             </a>
             <a
               href='https://twitter.com/blachaz3'
-              class='link dim dib mr3 white-70'>
+              className='link dim dib mr3 white-70'>
               <svg
-                class='db w2 h2'
+                className='db w2 h2'
                 data-icon='twitter'
                 viewBox='0 0 32 32'
                 fill='currentColor'>
@@ -52,7 +53,7 @@ const Home = () => (
               </svg>
             </a>
             <a
-              class='link hover-silver white-70 dib h2 w2 mr3'
+              className='link hover-silver white-70 dib h2 w2 mr3'
               href='https://instagram.com/blachaz3'
               title='Instagram'>
               <svg
@@ -67,7 +68,7 @@ const Home = () => (
               </svg>
             </a>
             <a
-              class='link hover-silver white-70 dib h2 w2 mr3'
+              className='link hover-silver white-70 dib h2 w2 mr3'
               href='https://www.youtube.com/channel/UCzgzz03SJGXcFR3D5WRqRJw'
               title='Youtube'>
               <svg
@@ -79,38 +80,42 @@ const Home = () => (
             </a>
           </div>
         </header>
-        <section class='cf w-100 pa2-ns'>
+        <section className='cf w-100 pa2-ns'>
           <div className='measure-wide mv3'>
             <span className={`${styles.section}`}>About Me</span>
           </div>
         </section>
-        <div class='serif ph2 ph4-m ph5-l'>
-          <div class='f4 f3-m lh-copy'>
-            <div class='cf dt-l w-100'>
-              <div class='dtc-l v-mid mw6 pa2 pr3-l db center'>
-                <img class='db w-100 ' src='/static/img/IMG_6881.JPG' alt='' />
+        <div className='serif ph2 ph4-m ph5-l'>
+          <div className='f4 f3-m lh-copy'>
+            <div className='cf dt-l w-100'>
+              <div className='dtc-l v-mid mw6 pa2 pr3-l db center'>
+                <img
+                  className='db w-100 '
+                  src='/static/img/IMG_6881.JPG'
+                  alt=''
+                />
               </div>
-              <div class='dtc-l v-mid ph3 f4-m f4-l measure-l'>
-                <p class='measure fw6 center'>
+              <div className='dtc-l v-mid ph3 f4-m f4-l measure-l'>
+                <p className='measure fw6 center'>
                   Hazel, more commonly known as “Blachaz3” (pronounced Black
                   Haze) is a Ghanaian-American creative Entrepreneur based in
                   the United States. Blachaz3 graduated from Fordham University
                   with her Master’s in International Social Work with a focus on
                   Social Justice and Leadership.{' '}
                 </p>{' '}
-                <p class='measure fw6 center'>
+                <p className='measure fw6 center'>
                   {' '}
                   While in school, she focused on developing her skills as a
                   creative, public speaker, and businesswomen so that she could
                   merge them with her overall career as a social worker. As a
                   result of this process, Blachaz3 created her own social work
                   based organization called{' '}
-                  <a href='/fists-up-afros-out' className={`${styles.link}`}>
+                  <Link href='/fists-up-afros-out' className={`${styles.link}`}>
                     FISTS UP AFROS OUT
-                  </a>
+                  </Link>
                   .
                 </p>{' '}
-                <p class='measure fw6 center'>
+                <p className='measure fw6 center'>
                   {' '}
                   Her aim is to unify our people globally through community
                   service, education, programs, and creative arts.
@@ -120,175 +125,178 @@ const Home = () => (
           </div>
         </div>
         <div className='measure-wide mt3 mb1'>
-          <section class='cf w-100 pa2-ns'>
+          <section className='cf w-100 pa2-ns'>
             <span className={`${styles.section}`}>Creative Services</span>
           </section>
         </div>
-        <section class='pa3 pa4-m pa5-l'>
+        <section className='pa3 pa4-m pa5-l'>
           <a
-            class='f3 link hover-dark-blue b no-underline black-80  dib ph2 pv1'
+            className='f3 link hover-dark-blue b no-underline black-80  dib ph2 pv1'
             href='https://www.instagram.com/stories/highlights/18059857195047388/'>
             creative direction
           </a>
           {/* href='https://www.instagram.com/stories/highlights/18032728054086548/'> */}
           <a
-            class='f3 link b hover-blue no-underline black-80  dib ph2 pv1'
+            className='f3 link b hover-blue no-underline black-80  dib ph2 pv1'
             href='#'>
             promotions
           </a>
           <a
-            class='f3 link b hover-light-blue no-underline black-80  dib ph2 pv1'
+            className='f3 link b hover-light-blue no-underline black-80  dib ph2 pv1'
             href='#'>
             ads
           </a>
           <a
-            class='f3 link b hover-green no-underline black-80  dib ph2 pv1'
+            className='f3 link b hover-green no-underline black-80  dib ph2 pv1'
             href='#'>
             consultation
           </a>
           <a
-            class='f3 link b hover-light-green no-underline black-80  dib ph2 pv1'
+            className='f3 link b hover-light-green no-underline black-80  dib ph2 pv1'
             href='#'>
             writing
           </a>
           <a
-            class='f3 link b hover-yellow no-underline black-80  dib ph2 pv1'
+            className='f3 link b hover-yellow no-underline black-80  dib ph2 pv1'
             href='#'>
             photography
           </a>
           <a
-            class='f3 link b hover-hot-pink no-underline black-80  dib ph2 pv1'
+            className='f3 link b hover-hot-pink no-underline black-80  dib ph2 pv1'
             href='#'>
             social media marketing
           </a>
           <a
-            class='f3 link b hover-hot-pink no-underline black-80  dib ph2 pv1'
+            className='f3 link b hover-hot-pink no-underline black-80  dib ph2 pv1'
             href='https://www.instagram.com/p/BwWxWliAUwu/'>
             content creation
           </a>
           <a
-            class='f3 link b hover-gold no-underline black-80  dib ph2 pv1'
+            className='f3 link b hover-gold no-underline black-80  dib ph2 pv1'
             href='https://www.instagram.com/p/BwoyZKygIHa/'>
             {' '}
             videography
           </a>
           <a
-            class='f3 link b hover-orange no-underline black-80  dib ph2 pv1'
+            className='f3 link b hover-orange no-underline black-80  dib ph2 pv1'
             href='https://www.instagram.com/p/BXtXhxwhnWD/'>
             product placement
           </a>
           <a
-            class='f3 link b hover-light-red no-underline black-80  dib ph2 pv1'
+            className='f3 link b hover-light-red no-underline black-80  dib ph2 pv1'
             href='#'>
             design
           </a>
           <a
-            class='f3 link b hover-light-purple no-underline black dib ph2 pv1'
+            className='f3 link b hover-light-purple no-underline black dib ph2 pv1'
             href='https://www.instagram.com/stories/highlights/17928027403291474/'>
             speaking engagements
           </a>
           <a
-            class='f3 link b hover-red no-underline black-80  dib ph2 pv1'
+            className='f3 link b hover-red no-underline black-80  dib ph2 pv1'
             href='#'>
             lookbook curation
           </a>
           <a
-            class='f3 link b hover-pink no-underline black dib ph2 pv1'
+            className='f3 link b hover-pink no-underline black dib ph2 pv1'
             href='#'>
             hosting
           </a>
         </section>
-        <section class='cf w-100 pa2-ns'>
+        <section className='cf w-100 pa2-ns'>
           <div className='measure-wide mv2'>
             <span className={`${styles.section}`}>Press</span>
           </div>
         </section>
-        <section class='pa3 pa4-m pa5-l'>
+        <section className='pa3 pa4-m pa5-l'>
           <div
-            class='link  black-80 hover-silver dib mv1  mh3 tc'
+            className='link  black-80 hover-silver dib mv1  mh3 tc'
             title='Facebook'>
             <img
-              class='dib h2'
+              className='dib h2'
               style={{ filter: 'brightness(0)' }}
               src='/static/img/coco.png'
             />
           </div>
           <div
-            class='link black-80 hover-silver dib mv1  mh3 tc'
+            className='link black-80 hover-silver dib mv1  mh3 tc'
             title='Facebook'>
             <img
-              class='dib h2'
+              className='dib h2'
               src='/static/img/buzzfeed-logo-black-transparent.png'
             />
           </div>
           <div
-            class='link black-80 hover-silver dib mv1  mh3 tc'
+            className='link black-80 hover-silver dib mv1  mh3 tc'
             title='Facebook'>
-            <img class='dib h2' src='/static/img/Nike-Logo.png' />
+            <img className='dib h2' src='/static/img/Nike-Logo.png' />
           </div>
           <div
-            class='link black-80 hover-silver dib mv1  mh3 tc'
+            className='link black-80 hover-silver dib mv1  mh3 tc'
             title='Facebook'>
-            <img class='dib h2' src='/static/img/afropunk-logo.png' />
+            <img className='dib h2' src='/static/img/afropunk-logo.png' />
           </div>
           <div
-            class='link black-80 hover-silver dib mv1  mh3 tc'
-            title='Facebook'>
-            <img class='dib h2' src='/static/img/Cosmopolitan_logo_black.png' />
-          </div>
-          <div
-            class='link black-80 hover-silver dib mv1  mh3 tc'
+            className='link black-80 hover-silver dib mv1  mh3 tc'
             title='Facebook'>
             <img
-              class='dib h2'
+              className='dib h2'
+              src='/static/img/Cosmopolitan_logo_black.png'
+            />
+          </div>
+          <div
+            className='link black-80 hover-silver dib mv1  mh3 tc'
+            title='Facebook'>
+            <img
+              className='dib h2'
               src='/static/img/800px-COMPLEX_Magazine_Logo.svg.png'
             />
           </div>
           <div
-            class='link black-80 hover-silver dib mv1  mh3 tc'
+            className='link black-80 hover-silver dib mv1  mh3 tc'
             title='Facebook'>
             <img
-              class='dib h2'
+              className='dib h2'
               src='/static/img/black-opal-beauty-coupons.png'
             />
           </div>
           <div
-            class='link black-80 hover-silver dib mv1  mh3 tc'
+            className='link black-80 hover-silver dib mv1  mh3 tc'
             title='Facebook'>
             <img
-              class='dib h2'
+              className='dib h2'
               style={{ filter: 'brightness(0)' }}
               src='/static/img/allure.png'
             />
           </div>
           <div
-            class='link black-80 hover-silver dib mv1  mh3 tc'
+            className='link black-80 hover-silver dib mv1  mh3 tc'
             title='Facebook'>
             <img
-              class='dib h2'
+              className='dib h2'
               style={{ filter: 'brightness(0)' }}
               src='/static/img/unnamed.png'
             />
           </div>
           <div
-            class='link black-80 hover-silver dib mv1  mh3 tc'
+            className='link black-80 hover-silver dib mv1  mh3 tc'
             title='Facebook'>
             <img
-              class='dib h2'
+              className='dib h2'
               style={{ filter: 'brightness(0)' }}
               src='/static/img/logo-min.png'
             />
           </div>
           <div
-            class='link black-80 hover-silver dib mv1  mh3 tc'
+            className='link black-80 hover-silver dib mv1  mh3 tc'
             title='Facebook'>
-            <img class='dib h2' src='/static/img/s229680gg.png' />
+            <img className='dib h2' src='/static/img/s229680gg.png' />
           </div>
           <div
-            class='link black-80 hover-silver dib mv1  mh3 tc'
+            className='link black-80 hover-silver dib mv1  mh3 tc'
             title='Facebook'>
             <img
-              class='dib h2'
+              className='dib h2'
               style={{ filter: 'brightness(0)' }}
               src='/static/img/s229680g.png'
             />

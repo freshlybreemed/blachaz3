@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "now dev",
-    "start": "now"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "author": "",
   "license": "ISC",
@@ -37,7 +38,7 @@
     }
   },
   "engines": {
-    "node": "12.x"
+    "node": ">=18.0.0"
   },
   "lint-staged": {
     "*.{js,jsx}": [
