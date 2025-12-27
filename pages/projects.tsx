@@ -1,7 +1,8 @@
 import { styles } from '../constants/styles';
-import * as React from 'react';
-import Wrapper from '../components/Wrapper';
+import React from 'react';
 import { NextPage } from 'next';
+// import SignUpForm from '../components/SignUpForm';
+import Wrapper from '../components/Wrapper';
 
 const data = {
   description: 'Fists Up Afros Out',
@@ -112,3 +113,4 @@ const Home: NextPage = () => (
   </div>
 );
 export default Home;
+

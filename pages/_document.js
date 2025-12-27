@@ -1,20 +1,15 @@
-import Document, { Head, Main, NextScript } from 'next/document';
+import Document, { Head, Html, Main, NextScript } from 'next/document';
 import React from 'react';
 
 export default class MyDocument extends Document {
-  static getInitialProps({ renderPage }) {
-    const { html, head, errorHtml, chunks } = renderPage();
-    return {
-      html,
-      head,
-      errorHtml,
-      chunks,
-    };
+  static async getInitialProps(ctx) {
+    const initialProps = await Document.getInitialProps(ctx);
+    return { ...initialProps };
   }
 
   render() {
     return (
-      <html lang='en'>
+      <Html lang='en'>
         <Head>
           <link rel='stylesheet' href='/static/styles.min.css' />
           <link
@@ -63,10 +58,9 @@ export default class MyDocument extends Document {
         </Head>
         <body className='sans-serif black-80 f5 f4-ns'>
           <Main />
-
           <NextScript />
         </body>
-      </html>
+      </Html>
     );
   }
 }

@@ -1,8 +1,10 @@
 import axios from 'axios';
 import Router from 'next/router';
-import Cleave from 'cleave.js/react';
+import CleaveInput from 'cleave.js/react';
 import 'cleave.js/dist/addons/cleave-phone.us';
 import React, { useState } from 'react';
+
+const Cleave = CleaveInput as any;
 
 const ContactForm: React.FC = () => {
   const [name, setName] = useState<string>('');

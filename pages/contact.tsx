@@ -1,8 +1,8 @@
 import { styles } from '../constants/styles';
-import * as React from 'react';
+import React from 'react';
+import { NextPage } from 'next';
 import ContactForm from '../components/ContactForm';
 import Wrapper from '../components/Wrapper';
-import { NextPage } from 'next';
 
 const data = {
   description: 'Fists Up Afros Out',
@@ -37,3 +37,4 @@ const Home: NextPage = () => (
   </div>
 );
 export default Home;
+

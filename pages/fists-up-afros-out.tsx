@@ -1,6 +1,7 @@
 import { styles } from '../constants/styles';
 import React from 'react';
 import Link from 'next/link';
+import { NextPage } from 'next';
 // import SignUpForm from '../components/SignUpForm';
 import Wrapper from '../components/Wrapper';
 
@@ -9,7 +10,7 @@ const data = {
   header: `Blachaz3`,
 };
 
-const Home = () => (
+const Home: NextPage = () => (
   <div>
     <Wrapper data={data}>
       <article className='helvetica pt6'>
@@ -22,10 +23,11 @@ const Home = () => (
           <img
             className='w-80 center db f5 measure'
             src='/static/img/FUAO.png'
+            alt='Fists Up Afros Out'
           />
           <h4 className=' f4-m f4-l mt0 mb4 measure fw6 pv4-l center'>
             When you mix fashion and philanthropy, what do you get? A formula
-            that was created by mistake, but gaining it’s way to a household
+            that was created by mistake, but gaining it's way to a household
             brand. Hazel aims to promote UNITY through fashion, art and
             community service.
           </h4>
@@ -44,18 +46,20 @@ const Home = () => (
           </h4>
         </div>
         <div className='mw9 db center pa3 pt2-ns'>
-          <img className=' center db  w-100' src='/static/img/DSC_0057.jpg' />
+          <img className=' center db  w-100' src='/static/img/DSC_0057.jpg' alt='' />
         </div>
         <div className='mw9 db center pa3 pt2-ns'>
           <img
             className=' center db  w-100'
             src='/static/img/48911613411_525c430a6e_o-2.jpg'
+            alt=''
           />
         </div>
         <div className='mw9 db center pa3 pt2-ns'>
           <img
             className=' center db  w-100'
             src='/static/img/il_fullxfull.893805253_g43i.jpg'
+            alt=''
           />
         </div>
         <div className='mw9 db pr6 pa3 pt2-ns'>
@@ -77,6 +81,7 @@ const Home = () => (
                 className='dib w-100 ma2 mb4'
                 style={{ filter: 'brightness(0)' }}
                 src='/static/img/sofist.png'
+                alt='SoFISTication'
               />
             </div>
             <div className='mw9 db center pa2 pt2-ns ph7-l'>
@@ -87,7 +92,7 @@ const Home = () => (
               </h4>{' '}
               <h4 className=' f4-m f4-l mt0 mb4 measure fw6 pv4-l center'>
                 Through SoFISTication, our aim is to break the traditional way
-                of teaching, learning, and doing. Knowledge isn’t something that
+                of teaching, learning, and doing. Knowledge isn't something that
                 should be treated as a blanket statement. Encouraging higher
                 level thinking , self sufficiency, and necessary skills needed
                 to survive is key.{' '}
@@ -99,12 +104,13 @@ const Home = () => (
             </div>
           </div>
           <div className='mw9 db center pa2 pt2-ns'>
-            <img className=' center db  w-100' src='/static/img/sofist1.jpg' />
+            <img className=' center db  w-100' src='/static/img/sofist1.jpg' alt='' />
           </div>
           <div className='mw9 db center pa2 pt2-ns'>
             <img
               className=' center db  w-100'
               src='/static/img/sofist5 (2).jpg'
+              alt=''
             />
           </div>
           <div className='measure-wide mt3 mb3'>
@@ -118,10 +124,9 @@ const Home = () => (
               <iframe
                 src='https://www.youtube.com/embed/uCP-8GQYbRg'
                 className='aspect-ratio--object'
-                frameborder='0'
-                webkitallowfullscreen
-                mozallowfullscreen
-                allowfullscreen></iframe>
+                frameBorder='0'
+                allowFullScreen
+                title='Fists Up Afros Out: SoFISTication'></iframe>
             </div>
             <h3 className='f5 f4-ns mb0 black-90'>
               Fists Up Afros Out: SoFISTication
@@ -131,17 +136,14 @@ const Home = () => (
               <iframe
                 src='https://www.youtube.com/embed/DKmhhjw-xhw'
                 className='aspect-ratio--object'
-                frameborder='0'
-                webkitallowfullscreen
-                mozallowfullscreen
-                allowfullscreen></iframe>
+                frameBorder='0'
+                allowFullScreen
+                title='Fists Up Afros Out: Mini Documentary'></iframe>
             </div>
             <h3 className='f5 f4-ns mb0 black-90'>
-              <h3 className='f5 f4-ns mb0 black-90'>
-                Fists Up Afros Out: Mini Documentary
-              </h3>
-              <h3 className='f6 f5 fw4 mt2 black-60'>Original Webseries</h3>
+              Fists Up Afros Out: Mini Documentary
             </h3>
+            <h3 className='f6 f5 fw4 mt2 black-60'>Original Webseries</h3>
           </div>
         </div>
       </article>
@@ -149,3 +151,4 @@ const Home = () => (
   </div>
 );
 export default Home;
+
