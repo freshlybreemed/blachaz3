@@ -14,13 +14,5 @@
       "methods": ["POST"],
       "dest": "server/handlers/post.js"
     }
-  ],
-  "env": {
-    "NODEMAILER": "@nodemailer"
-  },
-  "build": {
-    "env": {
-      "NODEMAILER": "@nodemailer"
-    }
-  }
+  ]
 }

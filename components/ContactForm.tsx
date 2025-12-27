@@ -4,15 +4,7 @@ import Cleave from 'cleave.js/react';
 import 'cleave.js/dist/addons/cleave-phone.us';
 import React, { useState } from 'react';
 
-interface ContactFormProps {
-  email: string;
-  password: string;
-  mode: string;
-  firstName: string;
-  lastName: string;
-  redirect: string;
-}
-const ContactForm: React.FC<ContactFormProps> = () => {
+const ContactForm: React.FC = () => {
   const [name, setName] = useState<string>('');
   const [email, setEmail] = useState<string>('');
   const [services, setServices] = useState<string[]>([]);
