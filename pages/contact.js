@@ -11,16 +11,16 @@ const data = {
 const Home = () => (
   <div>
     <Wrapper data={data}>
-      <article class='helvetica pt6'>
+      <article className='helvetica pt6'>
         <div className='measure-wide mt3 mb3'>
-          <section class='cf w-100 pa2-ns'>
+          <section className='cf w-100 pa2-ns'>
             <span className={`${styles.section}`}>Let's Chat</span>
           </section>
         </div>
-        <div class='serif ph2 ph4-m ph5-l pb5'>
-          <div class='f3 fw7 black lh-title pa2 pb3'>
+        <div className='serif ph2 ph4-m ph5-l pb5'>
+          <div className='f3 fw7 black lh-title pa2 pb3'>
             🚀{' '}
-            <a href='mailto:blachaz3@aol.com' class={`${styles.link}`}>
+            <a href='mailto:blachaz3@aol.com' className={`${styles.link}`}>
               blachaz3@aol.com{' '}
             </a>
           </div>
